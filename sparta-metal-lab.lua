@@ -1,4 +1,4 @@
-SPARTA_ROOT = "SPARTA_build_Oct_25_2013"
+SPARTA_ROOT = "SPARTA-20131029"
 
 -- This is up here instead of inline in fillTemplate
 -- so the batch files don't start with a bunch of tabs on
