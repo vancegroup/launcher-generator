@@ -18,6 +18,7 @@ launchers = {
 	options = {
 		{
 			["Adam Factory Navigation Only"] = [[S:/DEMOS/spartaFactoryModel/Factory/standalone_main.lua]];
+			["Adam Factory Forklift Driving"] = [[S:\DEMOS\adam-factory\Factory\standalone_main.lua]];
 			["Virtually Magic"] = [[S:/DEMOS/virtually-magic/Scripts/magicmain.lua]];
 			["Virtual METaL"] = [[S:/DEMOS/Virtual-METaL/main.lua]];
 		};
