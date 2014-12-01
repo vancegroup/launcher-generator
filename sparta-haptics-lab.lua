@@ -1,4 +1,4 @@
-SPARTA_ROOT = "SPARTA_build_Oct_25_2012"
+SPARTA_ROOT = "sparta-3.0.1-g9772b97"
 
 -- This is up here instead of inline in fillTemplate
 -- so the batch files don't start with a bunch of tabs on
@@ -35,6 +35,7 @@ launchers = {
 			["Fly Wheel"] = [[../sparta-scripts-and-models/FlyWheel/demo.lua]];
 			["UBracket"] = [[../sparta-scripts-and-models/UBracket/bracket.lua]];
 			["PegAndKey"] = [[../sparta-scripts-and-models/Bimanual_Study/main.lua]];
+			["Hybrid"] = [[../sparta-scripts-and-models/Hybrid/new-block-and-peg.lua]];
 		};
 		--display configurations
 		{
