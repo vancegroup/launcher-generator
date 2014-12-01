@@ -23,9 +23,10 @@ launchers = {
 		--};
 		--device configurations
 		{
-			["DualOmni"] = [[../sparta-scripts-and-models/Devices/Dual_Omni.lua]];
-			["LeftOmni_RightGlove"] = [[../sparta-scripts-and-models/Devices/LeftOmni_RightGlove.lua]];
-			["LeftGlove_RightOmni"] = [[../sparta-scripts-and-models/Devices/LeftGlove_RightOmni.lua]];
+			["DualOmni"] = [[../sparta-scripts-and-models/Devices/RightOmni.lua ../sparta-scripts-and-models/Devices/LeftOmni.lua]];
+			["DualGlove"] = [[../sparta-scripts-and-models/Devices/RightGlove.lua ../sparta-scripts-and-models/Devices/LeftGlove.lua]];
+			["LeftOmni_RightGlove"] = [[../sparta-scripts-and-models/Devices/LeftOmni.lua ../sparta-scripts-and-models/Devices/RightGlove.lua]];
+			["LeftGlove_RightOmni"] = [[../sparta-scripts-and-models/Devices/LeftGlove.lua ../sparta-scripts-and-models/Devices/RightOmni.lua]];
 			["RightOmni_Only"] = [[../sparta-scripts-and-models/Devices/RightOmni.lua]];
 			["LeftOmni_Only"] = [[../sparta-scripts-and-models/Devices/LeftOmni.lua]];
 		};
